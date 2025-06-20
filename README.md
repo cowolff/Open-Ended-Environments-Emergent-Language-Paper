@@ -69,8 +69,6 @@ The output of this code will look like this:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Environment and Reward
-
 ## Environments
 
 In our experiments, agents are challenged to solve environments where optimal performance requires language-based communication. We have developed two such environments:
@@ -80,3 +78,15 @@ In our experiments, agents are challenged to solve environments where optimal pe
 2. **Collectors**: Here, two agents must collect targets by colliding with them, without being able to see each other. Unlike in Pong, agents can move both vertically and horizontally. Each target has a visible countdown, within which it must be collected. Agents receive a reward of +1 for each successfully collected target, but if they fail to collect a target before the countdown expires, both agents receive a penalty of -1, and the episode ends. Due to the distance and spawn frequency of the targets, agents must use the language channel to consistently coordinate and succeed in this task.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Citation
+
+If you use this work, please cite it using the following BibTeX entry:
+
+```bibtex
+@article{wolff2024bidirectional,
+  title={Bidirectional Emergent Language in Situated Environments},
+  author={Wolff, Cornelius and Mayer, Julius and Bruni, Elia and Ohmer, Xenia},
+  journal={arXiv preprint arXiv:2408.14649},
+  year={2024}
+}
